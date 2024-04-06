@@ -3,8 +3,6 @@ project(code_generator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-
 set(OPENSSL_ROOT_DIR "OpenSSL")
 
 set(OPENSSL_USE_STATIC_LIBS TRUE)
